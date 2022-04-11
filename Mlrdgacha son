@@ -1,0 +1,195 @@
+a=int(input('a = '))
+bi=a//1000000000
+hm=a%1000000000//100000000
+tm=a%100000000//10000000
+mi=a%10000000//1000000
+ht=a%1000000//100000
+tt=a%100000//10000
+th=a%10000//1000
+hu=a%1000//100
+tn=a%100//10
+on=a%10
+if bi==1:
+    print("bir milliard",end=' ')
+elif bi==2:
+    print("ikki milliard",end=' ')
+elif bi==3:
+    print("uch milliard",end=' ')
+elif bi==4:
+    print("to'rt milliard",end=' ')
+elif bi==5:
+    print("besh milliard",end=' ')
+elif bi==6:
+    print("olti milliard",end=' ')
+elif bi==7:
+    print("yetti milliard",end=' ')
+elif bi==8:
+    print("sakkiz milliard",end=' ')
+elif bi==9:
+    print("to'qqiz milliard",end=' ')
+if hm==1:
+    print("bir yuz",end=' ')
+elif hm==2:
+    print("ikki",end=' ')
+elif hm==3:
+    print("uch yuz",end=' ')
+elif hm==4:
+    print("to'rt yuz",end=' ')
+elif mi==5:
+    print("besh yuz",end=' ')
+elif hm==6:
+    print("olti yuz",end=' ')
+elif hm==7:
+    print("yetti yuz",end=' ')
+elif hm==8:
+    print("sakkiz yuz",end=' ')
+elif hm==9:
+    print("to'qqiz yuz",end=' ')
+if tm==1:
+    print("o'n",end=' ')
+elif tm==2:
+    print("yigirma",end=' ')
+elif tm==3:
+    print("o'ttiz",end=' ')
+elif tm==4:
+    print("qirq",end=' ')
+elif tm==5:
+    print("ellik",end=' ')
+elif tm==6:
+    print("oltmish",end=' ')
+elif tm==7:
+    print("yettimish",end=' ')
+elif tm==8:
+    print("sakson",end=' ')
+elif tm==9:
+    print("to'qson",end=' ')
+if mi==1:
+    print("bir",end=' ')
+elif mi==2:
+    print("ikki",end=' ')
+elif mi==3:
+    print("uch",end=' ')
+elif mi==4:
+    print("to'rt",end=' ')
+elif mi==5:
+    print("besh",end=' ')
+elif mi==6:
+    print("olti",end=' ')
+elif mi==7:
+    print("yetti",end=' ')
+elif mi==8:
+    print("sakkiz",end=' ')
+elif mi==9:
+    print("to'qqiz",end=' ')
+if mi>0 or tm>0 or hm>0:
+    print("million",end=' ')
+if ht==1:
+    print("yuz",end=' ')
+elif ht==2:
+    print("ikki yuz",end=' ')
+elif ht==3:
+    print("uch yuz",end=' ')
+elif ht==4:
+    print("to'rt yuz",end=' ')
+elif ht==5:
+    print("besh yuz",end=' ')
+elif ht==6:
+    print("olti yuz",end=' ')
+elif ht==7:
+    print("yetti yuz",end=' ')
+elif ht==8:
+    print("sakkiz yuz",end=' ')
+elif ht==9:
+    print("to'qqiz yuz",end=' ')
+if tt==1:
+    print("o'n",end=' ')
+elif tt==2:
+    print("yigirma",end=' ')
+elif tt==3:
+    print("o'ttiz",end=' ')
+elif tt==4:
+    print("qirq",end=' ')
+elif tt==5:
+    print("ellik",end=' ')
+elif tt==6:
+    print("oltmish",end=' ')
+elif tt==7:
+    print("yettimish",end=' ')
+elif tt==8:
+    print("sakson",end=' ')
+elif tt==9:
+    print("to'qson",end=' ')
+if th==1:
+    print("bir",end='')
+elif th==2:
+    print("ikki",end='')
+elif th==3:
+    print("uch",end='')
+elif th==4:
+    print("to'rt",end='')
+elif th==5:
+    print("besh",end='')
+elif th==6:
+    print("olti",end='')
+elif th==7:
+    print("yetti",end='')
+elif th==8:
+    print("sakkiz",end='')
+elif th==9:
+    print("to'qqiz",end='')
+if ht>0 or tt>0 or th>0:
+        print("ming",end='  ')
+if hu==1:
+    print("bir yuz",end=' ')
+elif hu==2:
+    print("ikki yuz" ,end=' ')
+elif hu==3:
+    print("uch yuz",end='b')
+elif hu==4:
+    print("to'rt yuz",end=' ')
+elif hu==5:
+    print("besh yuz",end=' ')
+elif hu==6:
+    print("olti yuz",end=' ')
+elif hu==7:
+    print("yetti yuz",end=' ')
+elif hu==8:
+    print("sakkiz yuz",end=' ')
+elif hu==9:
+    print("to'qqiz yuz",end=' ')
+if tn==1:
+    print("o'n",end=' ')
+elif tn==2:
+    print("yigirma",end=' ')
+elif tn==3:
+    print("o'ttiz",end=' ')
+elif tn==4:
+    print("qirq",end=' ')
+elif tn==5:
+    print("ellik",end=' ')
+elif tn==6:
+    print("oltmish",end=' ')
+elif tn==7:
+    print("yettimish",end=' ')
+elif tn==8:
+    print("sakson",end=' ')
+elif tn==9:
+    print("to'qson",end=' ')
+if on==1:
+    print("bir",end='')
+elif on==2:
+    print("ikki",end='')
+elif on==3:
+    print("uch",end='')
+elif on==4:
+    print("to'rt",end='')
+elif on==5:
+    print("besh",end='')
+elif on==6:
+    print("olti",end='')
+elif on==7:
+    print("yetti",end='')
+elif on==8:
+    print("sakkiz",end='')
+elif on==9:
+    print("to'qqiz",end='')
